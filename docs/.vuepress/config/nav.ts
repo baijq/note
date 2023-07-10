@@ -5,40 +5,70 @@ import { NavItem } from "vuepress/config";
 export default <Array<NavItem>>[
   { text: "Home", link: "/" },
   {
-    text: "配置",
+    text: "SpringBoot",
     items: [
       {
-        text: "项目配置",
-        link: "/start/",
+        text: "SpringBoot",
+        link: "/springboot/",
       },
       {
-        text: "部署",
-        link: "/deploy/",
+        text: "微服务",
+        link: "/microservices/",
       },
-      {
-        text: "更多参考",
-        link: "/more/",
-      },
-    ],
+    ]
   },
+  {
+    text: "学习笔记",
+    items: [
+      {
+        text: "Java笔记",
+        link: "/java/",
+      },
+      {
+        text: "数据库",
+        link: "/databases/",
+      },
+      {
+        text: "工具",
+        link: "/tools/",
+      },
+      {
+        text: "Python",
+        link: "/python/",
+      },
+      {
+        text: "前端",
+        link: "/web/",
+      },
+    ]
+  },
+  { text: "个人空间", link: "/my" },
   {
     text: "友情链接",
     items: [
       {
-        text: "vuepress",
-        link: "https://vuepress.vuejs.org/",
+        text: "GitEE",
+        link: "https://gitee.com/baijq/",
       },
       {
-        text: "vuepress-theme-vdoing",
-        link: "https://doc.xugaoyi.com/",
+        text: "GitHub",
+        link: "https://github.com/baijq/",
       },
       {
-        text: "U2SB",
-        link: "https://www.u2sb.com/",
+        text: "我的语雀",
+        link: "https://www.yuque.com/biubiu-note",
       },
       {
-        text: "MonoLogueChi",
-        link: "https://blog.xxwhite.com/",
+        text: "Hexo-NexT.Gemini",
+        link: "https://baijq.github.io/",
+      },
+      {
+        text: "Docsify",
+        link: "https://baijq.gitee.io/biubiunote/#/",
+      },
+      {
+        text: "博客园",
+        link: "https://www.cnblogs.com/baijinqiang",
       },
     ],
   },

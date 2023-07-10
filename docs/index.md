@@ -1,23 +1,23 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: vuepress-theme-vdoing-template
-tagline: 快速使用 vuepress-theme-vdoing
+heroText: BiuBiu
+tagline: 让坚持成为品质，让优秀成为习惯
 # actionText: 立刻进入 →
 # actionLink: /start/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
-  - title: 开始
-    details: 快速开始使用主题
+  - title: 闲时笔记
+    details: 以 Markdown 为中心的笔记整理，记录日常学习，思路整理，代码片段。
     link: /start/ # 可选
     imgUrl: /assets/img/web.png # 可选
-  - title: 部署
-    details: 不同部署平台的CI配置方法
+  - title: 坚持学习
+    details: 读书破万卷，下笔如有神。要坚持不断学习，才能让自己博学，变成更优秀的人。
     link: /deploy/
     imgUrl: /assets/img/other.png
-  - title: 更多参考
-    details: 更多参考示例
+  - title: 分享知识
+    details: 穷则独善其身，达则兼济天下。分享也是一种学习方式，发扬开源精神。
     link: /more/
     imgUrl: /assets/img/more.png
 
